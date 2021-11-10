@@ -29,7 +29,8 @@ To increase the performance of the model, we applied bucketing to the feature AS
 We increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers.
 We also tried a different activation function (tanh) but this did not help improve the model's performance.
 
-Summary
+Summary:
+
 The deep learning neural network model did not reach the target of 75% accuracy. Considering that this target level is pretty average we could say that the model is not performing well.
 Since we are in a binary classification situation, we could use a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees. 
 This type of model is over-engineered, thus giving us a mediocre accuracy score. The supervised learning model could yield better results.
